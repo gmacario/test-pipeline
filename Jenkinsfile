@@ -8,6 +8,6 @@ pipeline {
     }
   }
   environment {
-    EXORBSP_BRANCH = 'test'
+    EXORBSP_BRANCH = "${env.BRANCH_NAME}"
   }
 }
